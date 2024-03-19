@@ -9,7 +9,6 @@ import { clsx } from 'clsx'
 import s from '@/components/ui/input/input.module.scss'
 
 import { Typography } from '../typography/typography'
-// import { Label } from '../label'
 import { useGetId } from './useGetId'
 
 export type InputProps = {

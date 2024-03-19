@@ -1,6 +1,8 @@
 import { useState } from 'react'
 
 import { Input } from '@/components/ui/input'
+// eslint-disable-next-line import/namespace
+import { RadioGroupUI } from '@/components/ui/radio-group/radio-group'
 
 export function App() {
   const [searchInputValue, setSearchInputValue] = useState('input')
@@ -23,6 +25,7 @@ export function App() {
         type={'search'}
         value={searchInputValue}
       />
+      <RadioGroupUI />
     </div>
   )
 }
