@@ -14,7 +14,6 @@ type RadioGroupType = {
 
 export const RadioGroupUI = (props: RadioGroupType) => {
   const handleValueChange = (newValue: string) => {
-    console.log(newValue)
     props.onChangeValue && props.onChangeValue(Number(newValue))
   }
 
