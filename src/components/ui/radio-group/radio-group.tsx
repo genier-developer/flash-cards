@@ -9,7 +9,7 @@ type RadioGroupType = {
   disabled?: boolean
   name?: string
   onChangeValue?: (newValue: number) => void
-  value: number | string
+  value?: number | string
 } & ComponentPropsWithoutRef<'div'>
 
 export const RadioGroupUI = (props: RadioGroupType) => {
